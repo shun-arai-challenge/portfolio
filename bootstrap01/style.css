@@ -1,0 +1,50 @@
+@charset "utf-8";
+body {
+    font-family: "MS ゴシック", sans-serif;
+}
+.cover {
+    background-image: url(images/black-headphones-yellow-background-minimal-headphones-besthqwallpapers.com-1368x912\ .jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    font-size: 45px;
+}
+header .btn {
+    border-radius: 30px; 
+    font-size: 12px;
+}
+
+/* ------article/高品質で適切なヘッドフォンを簡単に見つける------ */
+article p {
+    text-indent: 1rem;
+}
+/* ------link/ビジネスHTMLテンプレート無料テンプレート------ */
+.link a {
+    text-decoration: none;
+}
+/* -----main/ホット＆新しいヘッドフォン----- */
+.card-title {
+    font-size: 1rem;
+}
+.card p:nth-of-type(1) {
+    width: fit-content;
+}
+/* ------link-2/いいね？事前予約して割引を受ける------ */
+.link-2 .btn {
+    font-size: .8rem;
+}
+/* -----article/service----- */
+.service .card-header h2 {
+    font-size: 3rem;
+}
+.service .card-header p {
+    font-size: .8rem;
+}
+/* -----footer----- */
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+.fa-twitter, .fa-linkedin-in, .fa-youtube, .fa-wifi {
+    padding: 10px;
+}

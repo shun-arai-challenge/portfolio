@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap02</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg py-1">
+      <div class="navbar-brand" style="width: 100px; height: 70px;">
+        <img src="images/cafe-984275_1920.jpg" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav ml-auto flex-column flex-lg-row">
+          <li class="nav-item active mr-3">
+            <a class="nav-link text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demo Pages</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blocks</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demo Pages</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action</a>
+            </div>
+          </li>
+          <button class="btn btn-danger rounded-pill py-2">DOWNLOAD</button>
+        </ul>
+      </div>
+    </nav>
+    <div class="header-content">
+      <div class="container h-100">
+        <div class="header-content-item text-center text-light py-5">
+          <p class="mb-0">WANT TO HAVE A GOOD TIME AND TO DRINK SOME COFFEE?</p>
+          <h1 class="mb-3">COME TO OUR CAFE</h1>
+          <p class="mb-4">our cafe was created by the owners of mobirise eCommerce Website Builder to bring
+            endeavor ready clients, locals, andtravelers a truly uhique coffee experience</p>
+          <button class="btn btn-danger rounded-pill px-4 py-2">Read More</button>
+        </div>
+        <div class="card-group">
+          <div class="card rounded-0 text-center py-4 px-2">
+            <div class="card-img-top"><i class="fas fa-coffee text-danger"></i></div>
+            <div class="card-body">
+              <div class="card-title"><strong>Tasty Coffee</strong></div>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies.</p>
+            </div>
+          </div>
+          <div class="card rounded-0 text-center bg-light py-4 px-2">
+            <div class="card-img-top"><i class="far fa-clock text-danger"></i></div>
+            <div class="card-body">
+              <div class="card-title"><strong>Fast cooking</strong></div>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies.</p>
+            </div>
+          </div>
+          <div class="card rounded-0 text-center py-4 px-2">
+            <div class="card-img-top"><i class="fas fa-truck text-danger"></i></div>
+            <div class="card-body">
+              <div class="card-title"><strong>free Delivery</strong></div>
+              <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="section1 container">
+
+      <div class="my-5">
+        <h2 class="text-center">You will enjoy our cafe if you love</h2>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 px-0 order-0">
+          <img src="images/cafe-768771_1920.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 p-5 order-1">
+          <h3 class="text-danger">Homely atmospher</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+            elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis.
+          </p>
+          <button class="btn btn-danger rounded-pill flex-fill">View More</button>
+        </div>
+        <div class="col-lg-6 px-0 order-lg-4 order-3">
+          <img src="images/coffee-2589759_1920.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 p-5 order-3">
+          <h3 class="text-danger">Homely atmospher</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+            elit. Aenean commodo ligula eget dolor. Aenean massa.
+            Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis.
+          </p>
+          <button class="btn btn-danger rounded-pill">View More</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section2 my-5">
+      <div class="container py-5">
+        <div class="row text-white">
+          <div class="col-lg-6 d-flex flex-wrap">
+
+            <div class="card w-50 border-0 bg-transparent">
+              <p class="text-secondary font-weight-bold mb-0">01.</p>
+              <p class="mt-n5 mb-0"><strong>OUR TEAM</strong></p>
+              <div class="card-body pl-0">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </div>
+                <a href="#" class="card-link text-danger">
+                  Lean More...
+                </a>
+              </div>
+            </div>
+
+            <div class="card w-50 border-0 bg-transparent">
+              <div class="card-img-top">
+                <p class="text-secondary font-weight-bold mb-0">02.</p>
+                <p class="mt-n5 mb-0"><strong>OUR TEAM</strong></p>
+              </div>
+              <div class="card-body pl-0">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </div>
+                <a href="#" class="card-link text-danger">
+                  Lean More...
+                </a>
+              </div>
+            </div>
+
+            <div class="card w-50 border-0 bg-transparent">
+              <div class="card-img-top">
+                <p class="text-secondary font-weight-bold mb-0">03.</p>
+                <p class="mt-n5 mb-0"><strong>OUR TEAM</strong></p>
+              </div>
+              <div class="card-body pl-0">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </div>
+                <a href="#" class="card-link text-danger">
+                  Lean More...
+                </a>
+              </div>
+            </div>
+
+            <div class="card w-50 border-0 bg-transparent">
+              <div class="card-img-top">
+                <p class="text-secondary font-weight-bold mb-0">04.</p>
+                <p class="mt-n5 mb-0"><strong>OUR TEAM</strong></p>
+              </div>
+              <div class="card-body pl-0">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </div>
+                <a href="#" class="card-link text-danger">
+                  Lean More...
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6 pt-3">
+            <p class="mb-0">And thot's not oll...</p>
+            <h2>4 Reasons to Visit Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+              elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis. Donec quam felis.
+            </p>
+            <button class="btn btn-danger rounded-pill px-4 py-2 mt-3">Visit Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section3 mb-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="mb-1">1.Meet our team</h2>
+          <p>we make the world's best coffee.</p>
+        </div>
+        <div class="row px-5">
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/DEF_4886.jpg" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  Amande Adams
+                </h4>
+                <p class="card-text">
+                  Barista
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/publicdomainq-0023324pwf.jpg" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  Amande Adams
+                </h4>
+                <p class="card-text">
+                  Barista
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/7dd29b67af136786fe639446f142cfc2.jpg" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">
+                  Amande Adams
+                </h4>
+                <p class="card-text">
+                  Barista
+                </p>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing
+                  elit. Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section4 mb-5">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="text-center text-white">
+          <h2>2.We are proud of our coffee</h2>
+          <p class="mb-0">thare is nothing to write hare. it is just nooded to tastod..</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section5 mb-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>3.Read our blog to understand our philosophy</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/coffee-2235370_1920.jpg" class="img-fluid">
+              </div>
+              <div class="card-img-overlay">
+                <button class="btn btn-danger rounded-pill">Custamer story</button>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-0">Excellent coffee</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                  commodo ligula eget dolor.
+                </p>
+                <button class="btn btn-danger rounded-pill"> Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/bar-984527_1920.jpg" class="img-fluid">
+              </div>
+              <div class="card-img-overlay">
+                <button class="btn btn-danger rounded-pill">Outlook</button>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-0">Nice staff</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                  commodo ligula eget dolor.
+                </p>
+                <button class="btn btn-danger rounded-pill"> Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0">
+              <div class="card-img-top">
+                <img src="images/coffee-2589759_1920.jpg" class="img-fluid">
+              </div>
+              <div class="card-img-overlay">
+                <button class="btn btn-danger rounded-pill">Kichen stories</button>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-0">Tasty delecacies</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                  commodo ligula eget dolor.
+                </p>
+                <button class="btn btn-danger rounded-pill"> Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section6 mb-5">
+      <div class="container text-white py-5">
+        <div>
+          <p class="mb-0 text-white-50">Read the reviews and you will understand what we're talking about</p>
+          <h2>4.Our speed..</h2>
+        </div>
+        <div id="carousel-card" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item px-5 active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetuer
+                          adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <footer class="blockquote-footer text-white"><strong>Amanda
+                            Adams</strong></footer>
+                        <p class="text-white-50">Barista</p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetuer
+                          adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <footer class="blockquote-footer text-white"><strong>Amanda
+                            Adams</strong></footer>
+                        <p class="text-white-50">Barista</p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetuer
+                          adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <footer class="blockquote-footer text-white"><strong>Amanda
+                            Adams</strong></footer>
+                        <p class="text-white-50">Barista</p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev rounded-pill" href="#carousel-card" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next rounded-pill" href="#carousel-card" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section7 mb-5">
+      <div class="container py-4">
+        <div class="text-center">
+          <p class="mb-0 text-secondary">Welcome to Our Coffeehouse</p>
+          <h2>Do you like it? Share this page!</h2>
+        </div>
+        <div class="icon">
+          <div class="text-white d-flex justify-content-center align-items-center">
+            <i class="fab fa-facebook-f bg-primary mr-3"></i>
+            <i class="fab fa-twitter bg-info  mr-3"></i>
+            <i class="fab fa-google-plus-g bg-danger  mr-3"></i>
+            <i class="fab fa-vk bg-secondary  mr-3"></i>
+            <i class="fab fa-odnoklassniki bg-warning mr-3"></i>
+            <i class="fab fa-pinterest-p bg-danger mr-3"></i>
+            <i class="fas fa-envelope bg-primary "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="upper col-lg-4 text-center">
+          <div class="photo d-inline-block">
+            <img src="images/bar-984527_1920.jpg" class="img-fluid">
+          </div>
+
+          <div class="mb-4">
+            <p class="font-weight-bold mb-2">Address</p>
+            <p class="mb-0">1234 Street Name</p>
+            <p class="mb-0">City, AA 99999</p>
+          </div>
+          <div>
+            <p class="font-weight-bold mb-2">Contacts</p>
+            <p class="mb-0">Email support@mabirise.com</p>
+            <p class="mb-0">Phone +1(0) 000 0000 001</p>
+            <p class="mb-0">Fax +1(0) 000 0000 002</p>
+          </div>
+        </div>
+        <div class="middle col-lg-4">
+          <p class="text-center">OPENING HOURS</p>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="text-right mr-4">
+              <p class="font-weight-bold mb-0">Monday</p>
+              <p class="font-weight-bold mb-0">Tuesday</p>
+              <p class="font-weight-bold mb-0">Wednesday</p>
+              <p class="font-weight-bold mb-0">Thursday</p>
+              <p class="font-weight-bold mb-0">Friday</p>
+              <p class="font-weight-bold mb-0">Saturday</p>
+            </div>
+            <div>
+              <p class="mb-0">11:00 - 18:00</p>
+              <p class="mb-0">11:00 - 18:00</p>
+              <p class="mb-0">11:00 - 18:00</p>
+              <p class="mb-0">11:00 - 18:00</p>
+              <p class="mb-0">11:00 - 18:00</p>
+              <p class="mb-0">11:00 - 18:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="lower col-lg-4">
+          <p class="text-center">GET IN TOUCH</p>
+          <div class="mb-4">
+            <p class="border-bottom pb-2">Name</p>
+            <p class="border-bottom pb-2">Phone</p>
+            <p class="border-bottom pb-4">Message</p>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-danger rounded-pill px-4 py-2 text-center">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
